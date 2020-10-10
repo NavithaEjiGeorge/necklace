@@ -74,8 +74,8 @@ function draw() {
     text("After getting the message click on it to play further..",10,120)
     text("CLICK THE COLOURED BLOCKS TO GET THE DESIRED NAIL POLISH",10,30)
   text("Click these blocks to see the necklaces",10,400)
-if(mousePressesOver(go)){
-  link = createA(" https://navithaejigeorge.github.io/dressM/","Click Here")
+if(mousePressedOver(go)){
+  link = createA("https://navithaejigeorge.github.io/dressM/","Click Here")
   link.position(200,200)
 }
 }
